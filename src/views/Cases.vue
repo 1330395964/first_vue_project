@@ -9,7 +9,7 @@
 		<h1>a={{ a }}</h1>
 		<h1>a={{ b }}</h1>
 		<h1>a*b={{ $store.getters.c }}</h1>
-		<h1>{{ c }}</h1>
+		<h1>{{ c }}</h1>   
 
 		<!-- 调用全局的方法修改state中的数据 -->
 		<button @click="$store.commit('addNum')">+</button>
